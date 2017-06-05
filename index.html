@@ -3,6 +3,14 @@
 <head>
 	<title>LI HUANG</title>
 	
+	<script src="JS\jquery.js"></script> 
+    <script> 
+    $(function(){
+		$("#includeHeader").load("header.html"); 
+		$("#includeFooter").load("footer.html"); 
+    });
+    </script> 
+	
 	<!-- Bootstrap core CSS -->
     <link href="CSS/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/font-awesome.min.css">
@@ -16,19 +24,7 @@
 	
 </head>
 <body>
-	<div class="header" id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<h1>Li Huang</h1>
-					<h3>
-						CS Student at Virginia Tech | <a href="mailto:You@Email.com">lhuang210@gmail.com</a>
-					</h3>
-				</div><!--/.col-lg-12-->
-			</div><!--/.row-->
-		</div><!--/.container-->
-	</div><!--/.#headerwrap-->
-
+	<div id="includedHeader"></div>
 	<section id="about" name="about"></section>
 	<div class="about">
 		<div class="container">
@@ -45,40 +41,7 @@
 			</div><!--/.row-->
 		</div><!--/.container-->
 	</div><!--/ #intro-->
-
-	<section id="contact" name="contact"></section>
-		<!--FOOTER DESCRIPTION -->
-		<div id="footwrap" class="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>CONTACT</h5>
-					</div>
-					<!-- EDIT: email -->
-					<div class="col-lg-6">
-						<p><t>Email</t><br/>
-							<a href="mailto:lhuang210@gmail.com" class="mail">lhuang210@gmail.com</a> <br/>
-							<a href="mailto:hli4@vt.edu" class="mail">hli4@vt.edu</a> <br/>
-						</p>
-						<!-- EDIT: address -->
-						<address>
-							<t>Address</t><br/>
-							Virginia Polytechnic Institute and State University <br/>
-							Blacksburg, VA 24061 <br/>
-							United States of America<br/>
-						</address>
-					</div>
-					<div class="col-lg-3">
-						<p><sm>SOCIAL LINKS</sm></p>
-						<p>
-							<!-- EDIT: Social Links. Replace # with your URL for each -->
-							<a href="https://github.com/LHuang2019"><i class="icon-github"></i></a>
-							<a href="http://www.spoj.com/users/lhuang210/"><i class="icon-spoj"></i></a>
-							<a href="https://www.linkedin.com/in/hlivt/"><i class="icon-linkedin"></i></a>
-						</p>
-					</div>
-				</div><!--/.row -->
-			</div><!--/.container -->
-		</div><!--/ #footer -->
+	
+	<div id="includedFooter"></div>
 </body>
 </html>
