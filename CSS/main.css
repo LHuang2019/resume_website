@@ -71,7 +71,7 @@ a:after {
 .header {
   background: #1CBCAD;
   background: url(../images/header-bg.jpg) no-repeat center top;
-  padding-top:140px;
+  padding: 70px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
@@ -89,18 +89,12 @@ a:after {
 }
 
 .header h1 {
-  font-size: 80px;
+  font-weight: bold;
+  margin: 0px 150px;
+  padding: 25px;
+  font-size: 100px;
   color: white;
-  background: rgba(0,0,0,0.2);
-}
-
-.header h3 {
-  font-size: 20px;
-  color: white;
-}
-
-.header h3 a {
-  color: #fff;
+  background: rgba(0,0,0,0.3);
 }
 
 /* About Wrap */
