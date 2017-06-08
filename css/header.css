@@ -1,22 +1,32 @@
 /* Header Wrap */
 .header {
-  background: url(../images/header-bg.jpg) no-repeat center top;
-  padding: 70px;
-  text-align:center;
-  background-attachment: relative;
-  background-position: center center;
-  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url(../images/header-bg.jpg) no-repeat center top;
+	padding: 70px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	  
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .header h1 {
-  font-weight: bold;
-  margin: 0px 150px;
-  padding: 25px;
-  font-size: 100px;
-  color: white;
-  background: rgba(0,0,0,0.3);
+	font-weight: bold;
+	margin: 0px 150px;
+	padding: 25px;
+	font-size: 100px;
+	color: white;
+	background: rgba(0,0,0,0.3);
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header a {
+	text-decoration: none;
 }
