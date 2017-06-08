@@ -1,8 +1,16 @@
 .home {
-  background-color: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
-} 
+  background: #ffffff;
+  padding: 50px;
+}
+
+.home h1 {
+	font-weight: bold;
+	margin: 0px 50px;
+	font-size: 60px;
+}
 
 .home p {
+	color: black;
+	line-height: 28px;
+	margin: 25px 50px;
 }
