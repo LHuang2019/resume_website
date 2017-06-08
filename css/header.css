@@ -22,11 +22,27 @@
 }
 
 .header ul {
+	display: inline-block;
     list-style-type: none;
-    margin: 0;
+    margin: 20px;
     padding: 0;
+	margin-bottom: -50px;
 }
 
-.header a {
+.header ul li {
+	float: left;
+}
+
+.header li a {
 	text-decoration: none;
+	display: block;
+    font-weight: bold;
+	padding: 25px;
+	font-size: 20px;
+	color: white;
+	background: rgba(0,0,0,0.3);
+}
+
+.header li a:hover {
+    background-color: rgba(0,0,0,0.8);
 }
