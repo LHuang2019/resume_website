@@ -1,10 +1,8 @@
 .home {
-  background: #2c3e50;
+  background-color: #ffffff;
   padding-top: 60px;
   padding-bottom: 60px;
-  color: white;
 } 
 
-.home h5, p {
-  color: white;
+.home p {
 }
