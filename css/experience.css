@@ -1,0 +1,22 @@
+.experience h1, .experience h2 {
+	font-weight: bold;
+}
+
+.experience p {
+	text-align: left;
+}
+
+.experience ul {
+	text-align: center;
+	display: table;
+    table-layout: fixed;
+    list-style-type: none;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.experience ul li {
+	display: table-cell;
+    *float: left;
+}
