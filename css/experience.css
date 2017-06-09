@@ -20,3 +20,7 @@
 	display: table-cell;
     *float: left;
 }
+
+.experience ul li:not(:nth-child(2)) {
+     width: 20%;
+}
