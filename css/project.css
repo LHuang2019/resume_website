@@ -20,3 +20,7 @@
 	display: table-cell;
     *float: left;
 }
+
+.project ul li:not(:nth-child(3)) {
+     width: 15%;
+}
