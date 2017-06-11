@@ -30,7 +30,8 @@ p {
 a {
 	color: #1CBCAD;
 	word-wrap: break-word;
-
+	text-decoration: none;	
+	
 	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;

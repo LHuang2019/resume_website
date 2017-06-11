@@ -9,10 +9,6 @@
 	font-weight: bold;
 }
 
-.footer a {
-	text-decoration: none;	
-}
-
 .footer #email, .footer address, .footer #social-link {
 	text-align: left;
 	color: white;
