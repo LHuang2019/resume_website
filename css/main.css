@@ -9,21 +9,18 @@ body {
 	background-size: cover;
 	
 	background-color: #f2f2f2;
-	font-family: "Bitter"; /* OPTIONAL: Google Fonts - base font */
+	font-family: "Bitter";
 	font-weight: 300;
 	font-size: 16px;
 	margin: 0;
   
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
-  
-	/* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	-webkit-backface-visibility: hidden;
 }
 
-/* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Roboto Slab"; /* OPTIONAL: Google Fonts - title font */
+	font-family: "Roboto Slab";
 	font-weight: bold;
 	color: black;
 }
@@ -34,14 +31,12 @@ hr {
 	color: black; 
 }
 
-/* Paragraph & Typographic */
 p {
 	line-height: 28px;
 	margin-bottom: 25px;
 	font-weight: 500;
 }
 
-/* Links */
 a {
 	color: #1CBCAD;
 	word-wrap: break-word;
