@@ -14,3 +14,7 @@
 	margin: 25px 50px;
 	padding-right: 400px;
 }
+
+.home img {
+	border: 5px solid white;
+}
