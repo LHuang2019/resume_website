@@ -1,9 +1,6 @@
 .project {
 	 min-height: 300px;
-}
-
-.project h1, .project h2 {
-	font-weight: bold;
+	 
 }
 
 .project p {
@@ -24,6 +21,12 @@
 	display: table-cell;
     *float: left;
 }
+
+.project a {
+	font-weight: bold;
+	color: #cc33ff;
+}
+
 
 .project ul li:not(:nth-child(3)) {
      width: 15%;

@@ -11,8 +11,8 @@
 
 .footer #email, .footer address, .footer #social-link {
 	text-align: left;
-	color: white;
 	display: inline-table;
+	color: white;
 }
 
 .footer address, .footer #social-link {
