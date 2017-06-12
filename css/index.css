@@ -1,20 +1,20 @@
-.home {
+.index {
   padding: 50px;
   min-height: 300px;
 }
 
-.home h1 {
+.index h1 {
 	font-weight: bold;
 	margin: 0px 50px;
 	font-size: 60px;
 }
 
-.home p {
+.index p {
 	line-height: 28px;
 	margin: 25px 50px;
 	padding-right: 400px;
 }
 
-.home img {
+.index img {
 	border: 5px solid white;
 }
