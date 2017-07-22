@@ -1,18 +1,19 @@
-body {
-	background: url(../image/background.png) no-repeat center top;
-	background-attachment: relative;
+body {	
+	background-color: #f2f2f2;
+	font-family: "Bitter";
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0;
+	
+	background: url(../image/background.png) no-repeat center;
+
+	background-attachment: fixed;
 	background-position: center center;
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
-	background-color: #f2f2f2;
-	font-family: "Bitter";
-	font-weight: 300;
-	font-size: 16px;
-	margin: 0;
   
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
