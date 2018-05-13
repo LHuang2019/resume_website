@@ -1,70 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>LI JUN HUANG</title>
-	<meta name="description" content="Li Jun Huang is a student major in Computer Science at Virginia Tech.
-	He is interested in Big Data, Cloud Computing, and Cyber Security.">
+	<title>Li Jun Huang</title>
+	<meta name="description" content="Li Jun Huang personal resume website.">
 	<meta name="keywords" content="Li Jun Huang, Li Huang, Computer Science, Virginia Tech">
-	<!-- scripts for adding header and footer -->
-	<script src="js/jquery.js"></script> 
-    <script> 
-    $(function(){
-		$("#includeHeader").load("header.html");
-		$("#includeFooter").load("footer.html"); 
-    });
-    </script> 
 
     <!-- css stylesheet -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
 	
-    <!-- Used with the courtesy of Google Fonts -->
-	<!-- Bitter: https://fonts.google.com/specimen/Bitter -->
-    <link href='//fonts.googleapis.com/css?family=Bitter:300,400,700' rel='stylesheet' type='text/css'>
-	<!-- Roboto Slab: https://fonts.google.com/specimen/Roboto+Slab -->
-    <link href='//fonts.googleapis.com/css?family=Roboto Slab:400,300,700' rel='stylesheet' type='text/css'>
-	
+	<!-- icon is used with the courtesy of Font Awesome, more information: http://fontawesome.io/license/ -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
-	<div id="includeHeader"></div>
+<body class="loading">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
+			<!-- Header -->
+			<header id="header">
+				<h1>Li Jun Huang</h1>
+				<p>Computer Science student at Virginia Tech class of 2019</p>
+				<nav>
+					<ul>
+						<li><a href="mailto:lhuang210@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="file/huang_resume.pdf" class="icon fa-file-text-o" target="_blank"><span class="label">Resume</span></a></li>
+						<li><a href="https://www.linkedin.com/in/hlivt/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/LHuang2019" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
+			</header>
 
-	<div class="index">
-		<img src="image/lijunhuang-photo.jpg" align="right">
-		<h1>Welcome!</h1>
-		<p>
-			My name is Li Jun Huang.
-			I am a student at Virginia Tech class of 2019.
-			I major in Computer Science and minor in Math and Cyber Security.
-		</p>
-		<p>
-			As of today, I am most comfortable on <b>Java</b>, with work experience and experience on school/personal projects.
-			I have working/school experience on <b>C#</b>, <b>C</b> and <b>Puppet</b>, 
-			not in-depth, but enough to pick them up quickly for a new task.
-			I also have work experience on basic <b>Linux terminal</b> command prompt, specifically <b> RHEL </b>;
-			on <b>OpenStack platform</b> for creating/managing servers; 
-			and on <b>Git</b> for basic work tasks.
-		</p>
-		<p>
-			I am currently learning <b>Python</b>, <b>SQL</b> and <b>JavaScript</b>, 
-			and am planning on to use them for some future projects.
-			I am also learning <b>HTML</b>, <b>CSS</b>, and <b>Amazon Web Service</b>, 
-			creating and managing this website is an example.
-		</p>
-		<p>
-			I am really interested in <b>Big Data</b> and <b>Cloud Computing</b>. 
-			The technologies I am learning right now will set up a good foundation in pursuing these interests.
-			I hope to have an internship or research opportunity related to these areas in the future.
-		</p>
-		<p>
-			Through this website, I hope to introduce myself in a more comprehensive way beyond the resume.
-			Please let me know if you have any questions about me. My contact information is at the bottom.
-		</p>
-		<p>
-			Thank you! <br/>
-			<i>Li Jun Huang</i>
-		</p>
-	</div><!--/ .index-->
-	
-	<div id="includeFooter"></div>
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">&copy; Li Jun Huang 2018</span>
+			</footer>
+
+		</div>
+	</div>
+	<script>
+		window.onload = function() { document.body.className = ''; }
+		window.ontouchmove = function() { return false; }
+		window.onorientationchange = function() { document.body.scrollTop = 0; }
+	</script>
 </body>
 </html>
